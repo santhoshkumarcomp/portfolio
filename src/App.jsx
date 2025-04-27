@@ -9,8 +9,8 @@ function App() {
   
   return (
     <div className='container flex justify-center items-center min-h-screen sm:flex-col md:flex-col lg:flex-row xl:flex-row'>
-      <div className='box1 flex-[0.6] flex flex-col m-10 h-[85vh] drop-shadow-xl drop-shadow-cyan-500/50 '>
-      <div className='box2 flex flex-row justify-around  items-center bg-slate-800  h-[45vh] rounded-t-2xl sm:flex-row-reverse  md:flex-row'>
+      <div className='box1 flex-[0.6]  m-10 h-[90vh] drop-shadow-xl drop-shadow-cyan-500/50 titillium-web-regular-italic m-5 text-white'>
+      <div className=' flex flex-row justify-around  items-center bg-slate-800  h-[45vh] rounded-t-2xl sm:flex-row-reverse  md:flex-row'>
         <div className='flex-[0.7] sm:flex-col sm:w-full titillium-web-regular-italic m-5 text-white lg:m-2 md:text-md sm:text-sm'>
         <h2 className='hi'>Hi there I'm</h2>
         <h1 className='head text-4xl lg:text-3xl md:text-md sm:text-sm'> Santhosh Kumar R,</h1>
@@ -37,7 +37,7 @@ function App() {
         
       </div>
       </div>
-      <div className='flex-[0.4] m-10 h-[90vh] drop-shadow-xl drop-shadow-cyan-500/50 titillium-web-regular-italic m-5 text-white'>
+      <div className='box2 flex-[0.4] m-10 h-[90vh] drop-shadow-xl drop-shadow-cyan-500/50 titillium-web-regular-italic m-5 text-white'>
       <div className='flex flex-col bg-slate-800  h-[35vh] rounded-t-2xl titillium-web-regular-italic  text-white'>
       <div className='flex flex-row block mx-11 p-2'><h2 className=' text-3xl text-white px-2'>About </h2><span className='text-cyan-400 text-3xl'>Me</span></div>
       <br className='md:hidden lg:block' />

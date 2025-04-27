@@ -12,6 +12,12 @@
 
     font-size: 12px;
   }
+  .box1 {
+    width: 100vw;
+  }
+  .box2 {
+    width: 100vw;
+  }
 
   .intro {
     display: none;
